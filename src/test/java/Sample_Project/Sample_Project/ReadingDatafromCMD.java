@@ -7,6 +7,7 @@ public class ReadingDatafromCMD {
 	@Test(groups = "smoke")
 	
 	public void readingdatafromcmd() {
+	System.out.println("Execute Poll SCM in jenkinc");
 	String URL = System.getProperty("url");
 	String un = System.getProperty("username");
 	String pw =System.getProperty("password");
